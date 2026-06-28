@@ -5,7 +5,7 @@ IA feita para ajudar em estudo sobre copa do mundo
 
 Ela vai basicamente ser um almanaque, um catalogo sobre copas. Vai mostrar a historia, taticas, curiosidades sobre copas, desde 1930 ate o tempo atual.
 
-LINKS USADOS:
+# LINKS USADOS:
 
 textos:
 
@@ -46,7 +46,7 @@ https://www.youtube.com/watch?v=AYJOCx0xnSk&pp=ygUnbWFpb3JlcyBqb2dhZG9yZXMgZGEga
 
 https://www.youtube.com/watch?v=3yqdkQKWYLw
 
-PERGUNTAS FEITAS:
+# PERGUNTAS FEITAS:
 
 "Comparando os textos sobre a evolução tática de 2010 a 2026, quais foram as principais mudanças na função dos meio-campistas? Como o estilo de jogo da Espanha (2010) se diferencia da dinâmica física apresentada pelas seleções em 2022?"
 
@@ -116,7 +116,7 @@ A campanha de Messi em 2022 é caracterizada pela **maturidade de um veterano** 
 
 Ambos foram eleitos os melhores jogadores (Bola de Ouro) de suas respectivas edições, mas enquanto o impacto de Maradona em 1986 foi uma explosão de talento individual que "esmerilhou" a competição, o de Messi em 2022 foi a consagração técnica de uma vida dedicada ao esporte.
 
-TESTE DE ESTRESSE:
+# TESTE DE ESTRESSE:
 
 O jogador Neymar ganhou alguma Copa do Mundo no período de 2010 a 2022? Procure estritamente nas fontes fornecidas. Se os documentos não mencionarem um título dele, responda explicitamente que a informação não consta no arquivo
 
