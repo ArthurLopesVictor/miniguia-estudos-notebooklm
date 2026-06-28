@@ -1,10 +1,15 @@
 # miniguia-estudos-notebooklm
 
 
-IA feita para ajudar em estudo sobre copa do mundo
+## 📌 Contexto e Objetivos
 
-Ela vai basicamente ser um almanaque, um catalogo sobre copas. Vai mostrar a historia, taticas, curiosidades sobre copas, desde 1930 ate o tempo atual.
+Este repositório apresenta um ambiente de estudo inteligente desenvolvido no **NotebookLM**, utilizando a Inteligência Artificial Generativa baseada em fontes fechadas e confiáveis para atuar como um **Almanaque Digital da Copa do Mundo**. O foco central da pesquisa é compreender a evolução histórica do torneio desde 1930, mapeando as transformações táticas, curiosidades e o impacto socioeconômico das edições recentes (2010 a 2022) até a transição para o novo formato expandido que será implementado na Copa do Mundo de 2026.
 
+**Objetivos de Estudo:**
+* Analisar a transição tática do futebol moderno, contrastando o estilo técnico de 2010 com a intensidade física atual;
+* Investigar como o fenômeno das seleções "zebras" e o engajamento global impulsionaram a decisão da FIFA de expandir o torneio;
+* Avaliar os limites e a precisão de uma IA alimentada exclusivamente por uma curadoria de documentos específicos, mitigando alucinações de dados.
+  
 # LINKS USADOS:
 
 textos:
@@ -136,3 +141,23 @@ Em 2022, o Brasil foi eliminado pela Croácia nos pênaltis, também nas quartas
 .
 Portanto, como o último título mundial do Brasil registrado nos arquivos ocorreu em 2002 e as campanhas subsequentes não resultaram em vitória, a informação de um título de Copa do Mundo para Neymar não consta no arquivo.
 
+## 🩹 Engenharia de Prompts e "Cicatrizes" (Troubleshooting)
+
+Durante o processo de refinamento e interação com o NotebookLM, o maior desafio técnico (cicatriz) foi garantir que a IA trouxesse dados profundos e projeções logísticas precisas sobre a Copa do Mundo de 2026. Inicialmente, ao utilizar apenas artigos genéricos de curiosidades históricas, as respostas sobre o futuro do torneio eram superficiais ou vagas.
+
+**Processo de Resolução (Troubleshooting):**
+Para solucionar essa limitação e extrair melhores respostas da IA, foi necessário realizar uma nova curadoria e injetar documentos altamente específicos, como os regulamentos oficiais de calendário da FIFA e análises estruturais do portal Lance!. Com esse ajuste nas fontes, a IA passou a cruzar corretamente dados complexos, como a nova regra de descanso mínimo de 72 horas para os atletas e o impacto financeiro projetado de US$ 80,1 bilhões para a economia global em 2026.
+
+
+### 📊 Glossário com os Principais Conceitos Aprendidos
+
+*   **Tikitaka:** Estilo de jogo baseado na manutenção paciente da posse de bola, triangulações e troca de passes curtos e rápidos. Teve seu auge técnico na Copa de 2010 com a seleção da Espanha.
+*   **Fase de Grupos Expandida (48 Seleções):** Novo formato estrutural e logístico que estreia em 2026, eliminando o formato tradicional de 32 seleções vigente desde 1998. O torneio passa a contar com 104 jogos e exige 8 partidas para os finalistas.
+*   **Zebra:** Termo futebolístico utilizado para definir seleções de menor expressão ou tradição que surpreendem e eliminam potências históricas do esporte (exemplificado por Costa Rica em 2014 e Marrocos em 2022).
+*   **Alucinação de IA:** Fenômeno em que modelos de linguagem generativa inventam fatos ou estatísticas falsas por falta de dados reais em sua base. No projeto, isso foi mitigado pelo uso do NotebookLM, que restringe as respostas estritamente aos documentos fornecidos.
+
+### 🎯 Conjunto de Prompts Reutilizáveis para Revisão Futura
+
+PROMPT 1: "Com base nas fontes fornecidas sobre regulamentos, crie uma tabela resumindo os principais desafios logísticos e estruturais que a sede conjunta (EUA, México e Canadá) enfrentará para comportar o volume de 104 jogos em 2026."
+
+PROMPT 2: "Atuando como um professor de história do esporte, elabore um resumo em tópicos destacando como fatores geopolíticos influenciaram as Copas do Mundo nos períodos de 1950-1966 e 1970-1982, utilizando trechos extraídos dos documentos."
